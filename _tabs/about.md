@@ -6,9 +6,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<img src="/assets/moataz.png" alt="Moataz Hamza" width="120" style="float: left; margin-right: 20px; margin-bottom: 10px;">
+<img src="/assets/moataz.png" alt="Moataz Hamza" width="300" height="300" style="float: left; margin-right: 20px; margin-bottom: 10px;">
 
-### Hi, I'm Moataz!
+### My name is Moataz Hamza
 
 I hold a B.Sc. in Computer Science from Tel Aviv University and am currently pursuing my M.Sc. in Computer Science at the Academic College of Tel Aviv-Yaffo.
 
