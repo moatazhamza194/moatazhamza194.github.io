@@ -54,11 +54,11 @@ In SimCLR they did not look at pairs in the data as query-key, but as positive p
 The loss function in both papers was based on the *InfoNCE* loss. The main difference between them is the similarity metric they used. In MoCo they used the standard dot product, but in SimCLR they used the normalized version which is the *cosine similarity*.
 
 $$
-\tag{MoCo} L_q = -\log \frac{\exp(q \cdot k_+ / \tau)}{\sum_{i=1}^{K} \exp(q \cdot k_i / \tau)}
+ L_q = -\log \frac{\exp(q \cdot k_+ / \tau)}{\sum_{i=1}^{K} \exp(q \cdot k_i / \tau)} \tag{MoCo}
 $$
 
 $$
-\tag{SimCLR} L_{ij} = -\log \frac{\exp(\text{sim}(z_i \cdot z_j) / \tau)}{\sum_{k=1 (k \neq i)}^{2N} \exp(\text{sim}(z_i \cdot z_k) / \tau)}
+ L_{ij} = -\log \frac{\exp(\text{sim}(z_i \cdot z_j) / \tau)}{\sum_{k=1 (k \neq i)}^{2N} \exp(\text{sim}(z_i \cdot z_k) / \tau)} \tag{SimCLR}
 $$
 
 To minimize this loss function we would need to maximize the numerator, meaning we would need to maximize the similarity between the positive pair, or the query-key pair. We would also need minimize the denominator, meaning we would need to minimize similarity between the query and all the negative keys.
