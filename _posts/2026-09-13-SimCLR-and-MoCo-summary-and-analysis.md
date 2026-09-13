@@ -8,7 +8,7 @@ toc: true
 ---
 
 > **Downloads & Resources:**
-> * [Download Full PDF Version](/assets/resources/MoCo_SimCLR.pdf)
+> * [Download PDF Version](/assets/resources/MoCo_SimCLR.pdf)
 > * [View Seminar Presentation Slides](https://drive.google.com/file/d/1nWzYsNlJPU5KzmPZf9UwZHd4MCoHtFv3/view?usp=sharing)
 
 
