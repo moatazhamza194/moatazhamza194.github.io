@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 1
+order: 4
 ---
 
 Hi, I'm Moataz. Welcome to my blog!
