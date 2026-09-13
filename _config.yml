@@ -31,7 +31,7 @@ social:
 theme_mode:
 
 # Sidebar avatar image (local path or external URL)
-avatar: "/assets/moataz.png"
+avatar: "/assets/moataz.jpg"
 
 # Global switch for Table of Contents in posts
 toc: true
