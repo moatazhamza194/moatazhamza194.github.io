@@ -6,15 +6,29 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi, I'm Moataz. Welcome to my blog!
+<img src="/assets/moataz.png" alt="Moataz Hamza" width="120" style="float: left; margin-right: 20px; margin-bottom: 10px;">
 
-I started this site to document my research journey. 
-Currently I am interested in computer vision and deep learning, specifically the subject of self-supervised learning, though I write about whatever papers or projects I'm working on at the moment.
+### Hi, I'm Moataz!
 
-Here’s what to expect:
-- Summaries and breakdowns of papers I'm reading
-- PyTorch implementations of models and architectures
-- Notes and results from my own experiments
-- Updates on my thesis and ongoing research
+I hold a B.Sc. in Computer Science from Tel Aviv University and am currently pursuing my M.Sc. in Computer Science at the Academic College of Tel Aviv-Yaffo.
 
-Feel free to reach out via email at [moatazhamza194@gmail.com](mailto:moatazhamza194@gmail.com) or check out my work on [GitHub](https://github.com/moatazhamza194).
+I built this site to document my academic journey, break down papers, and share open-source implementations.
+
+---
+
+### What to Expect on This Blog
+
+- **Paper Breakdowns:** Detailed summaries and critical analyses of classic and cutting-edge deep learning papers.
+- **Implementations:** Clean, reproducible PyTorch code for model architectures and training pipelines.
+- **Experiment Logs:** Notes, benchmarks, and insights from my ongoing research and master's thesis work.
+
+---
+
+### Get in Touch
+
+Feel free to connect or reach out!
+
+* **GitHub:** [@moatazhamza194](https://github.com/moatazhamza194)
+* **Email:** [moatazhamza194@gmail.com](mailto:moatazhamza194@gmail.com)
+
+<div style="clear: both;"></div>
