@@ -8,7 +8,7 @@ lang: en
 timezone: UTC
 
 # jekyll-seo-tag settings
-title: "Moataz's Notes"
+title: "Moataz's Blog"
 tagline: "Documenting my research journey"
 description: >-
   Documenting my research journey: deep learning, computer vision, self-supervised learning paper summaries, implementations, and experiments.
