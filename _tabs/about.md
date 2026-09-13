@@ -9,7 +9,7 @@ order: 4
 Hi, I'm Moataz. Welcome to my blog!
 
 I started this site to document my research journey. 
-Currently I am focused on computer vision and deep learning, specifically the subject of self-supervised learning, though I write about whatever papers or projects I'm working on at the moment.
+Currently I am interested in computer vision and deep learning, specifically the subject of self-supervised learning, though I write about whatever papers or projects I'm working on at the moment.
 
 Here’s what to expect:
 - Summaries and breakdowns of papers I'm reading
