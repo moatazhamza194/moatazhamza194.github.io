@@ -13,7 +13,7 @@ toc: true
 > **Downloads & Resources:**
 > * [Download Full PDF Version](/assets/pdf/SimCLR_MoCo_Analysis.pdf)
 > * [View Seminar Presentation Slides](/assets/pdf/SimCLR_MoCo_Presentation.pdf)
-{: .prompt-info }
+
 
 ---
 
