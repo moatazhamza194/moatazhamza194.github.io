@@ -44,7 +44,7 @@ SwAV introduces an online clustering-based self-supervised method that combines 
 * $Q = \{q_1, ..., q_B\}$: The codes or cluster assignments. They are recalculated for each batch, and are treated as our signals for training. Each one of them is of dimension $(k,1)$.
 * $C = \{ c_1, ..., c_k\}$: They are called the *prototypes*, and each one of them is a learned embedding vector for a cluster. Each one of them is of dimension $(m,1)$.
 
-![The dimensions of the encoder's outputs Z, the prototypes matrix C and the codes matrix Q](/assets/img/swav_comp.pdf)
+![The dimensions of the encoder's outputs Z, the prototypes matrix C and the codes matrix Q](/assets/resources/swav_comp.pdf)
 
 ### 2.2 Key Components
 
@@ -93,7 +93,7 @@ $$
 
 Note that they only use the full resolution crops to compute codes to save computations, and also they found out that doing this gives better results and explained it by the fact that these low resolution crops capture less information and therefore could degrade the quality of the assignments.
 
-![Overview of SwAV Self-Supervised Learning Architecture](/assets/img/swav_arch.pdf)
+![Overview of SwAV Self-Supervised Learning Architecture](/assets/resources/swav_arch.pdf)
 
 ---
 
