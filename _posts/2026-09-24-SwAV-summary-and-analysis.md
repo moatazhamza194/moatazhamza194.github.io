@@ -44,7 +44,7 @@ SwAV introduces an online clustering-based self-supervised method that combines 
 * $Q = \{q_1, ..., q_B\}$: The codes or cluster assignments. They are recalculated for each batch, and are treated as our signals for training. Each one of them is of dimension $(k,1)$.
 * $C = \{ c_1, ..., c_k\}$: They are called the *prototypes*, and each one of them is a learned embedding vector for a cluster. Each one of them is of dimension $(m,1)$.
 
-![The dimensions of the encoder's outputs Z, the prototypes matrix C and the codes matrix Q](/assets/resources/swav_comp.pdf)
+![The dimensions of the encoder's outputs Z, the prototypes matrix C and the codes matrix Q](/assets/resources/swav_comp.png)
 
 ### 2.2 Key Components
 
@@ -93,7 +93,7 @@ $$
 
 Note that they only use the full resolution crops to compute codes to save computations, and also they found out that doing this gives better results and explained it by the fact that these low resolution crops capture less information and therefore could degrade the quality of the assignments.
 
-![Overview of SwAV Self-Supervised Learning Architecture](/assets/resources/swav_arch.pdf)
+![Overview of SwAV Self-Supervised Learning Architecture](/assets/resources/swav_arch.png)
 
 ---
 
@@ -118,12 +118,6 @@ The most notable result they showed is that SwAV beat supervised learning on *Pl
 
 An interesting experiment they did was trying out different clustering-based and contrastive learning methods with the multi-crop augmentation strategy, and they found that clustering methods benefited more from it than contrastive methods did. SimCLR, for instance, only saw a +2% improvement in accuracy with the linear evaluation protocol. A clustering-based method called *DeepCluster-v2* actually beats SwAV both with and without multi-crop, but they note that this method is not online.
 
----
-
-## 5. Critique
-
-I have the same criticism as in my previous analysis: it would have been nice to see them experiment with combinations of different transformations for the augmentation, especially since in the SimCLR paper they displayed the importance of combining augmentations from two different transformation types: spatial and appearance.
-
 | Method | epochs | batch | Top1 acc. |
 | :---: | :---: | :---: | :---: |
 | MoCo | 200 | 256 | 60.6 |
@@ -142,6 +136,14 @@ I have the same criticism as in my previous analysis: it would have been nice to
 | SwAV | 56.7 | 88.9 | 48.6 |
 
 *Table 2: Comparison of SwAV and supervised learning on transferring to linear classification datasets, using ResNet50 as the backbone.*
+
+
+---
+
+## 5. Critique
+
+I have the same criticism as in my previous analysis: it would have been nice to see them experiment with combinations of different transformations for the augmentation, especially since in the SimCLR paper they displayed the importance of combining augmentations from two different transformation types: spatial and appearance.
+
 
 ---
 
