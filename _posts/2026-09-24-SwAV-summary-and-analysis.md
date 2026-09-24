@@ -5,6 +5,7 @@ categories: [Research, Paper Breakdowns]
 tags: [computer-vision, self-supervised-learning, swav, clustering]
 math: true
 toc: true
+pin: true
 ---
 
 > **Downloads & Resources:**
